@@ -1,0 +1,26 @@
+footer {
+    background: var(--color-bg);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 4rem;
+
+}
+
+.footer__copyright {
+    margin-bottom: 6rem;
+    color: var(--color-primary-variant);
+}
+
+/* ================= MEDIA QUERIES ================== (MEDiUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/* ================= MEDIA QUERIES ================== (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+
+}
