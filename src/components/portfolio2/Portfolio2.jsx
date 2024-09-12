@@ -29,7 +29,7 @@ const data = [
     },
 
     {
-        name: 'Blob Game',
+        name: 'Mondrian Painting Game',
         review: 'Created a 2D game that models hierarchical data using trees by using recursive methods. Players apply operations such as rotations to a recursive structure in order to work towards a goal and earn points. '
     },
 ]
