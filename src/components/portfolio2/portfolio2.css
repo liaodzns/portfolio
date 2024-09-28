@@ -1,21 +1,21 @@
-.container.testimonials__container {
-    width: 40%;
+.container.projects__container {
+    width: 60%;
     padding-bottom: 4rem;
 
 }
 
 
-.testimonial {
+.projects {
     background: var(--color-bg-variant);
     /* background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../../assets/me.jpg') center; */
-    text-align: center;
+    text-align: left;
     padding: 6rem;
     border-radius: 2rem;
     user-select: none;
 
 }
 
-.client__name {
+.project__title {
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     font-size: larger;
@@ -24,9 +24,9 @@
     margin: 0.8rem auto 0;
 }
 
-.client__review {
+.project__desc {
     color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
+    font-weight: 300;
     font-size: medium;
     display: block;
     width: 80%;

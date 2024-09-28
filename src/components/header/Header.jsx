@@ -1,14 +1,17 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.jpg'
 import HeaderSocials from './HeaderSocials'
+import TypeWriter from '../../TypeWriter.js';
 
 const Header = () => {
   return (
+    <section id = 'header'>
     <header>
+
       <div className="container header__container">
-        <h1>Hi, I'm Daniel </h1>
+        <h1> <TypeWriter content="Hi, I'm Daniel" speed={100} /> </h1>
+        <h5> <TypeWriter content="I'm an aspiring developer from Boston" speed={50} /> </h5>
         {/* <h5 className = "text-light"> An Aspiring Fullstack Developer From Boston, Massachusetts</h5> */}
         <CTA />
         <HeaderSocials/>
@@ -20,6 +23,7 @@ const Header = () => {
         <a href="#contact" className = 'scroll__down'>Scroll Down</a>
       </div>
     </header>
+    </section>
   )
 }
 

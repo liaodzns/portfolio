@@ -9,45 +9,61 @@ const Experience = () => {
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
-            <h3>Frontend Development</h3>
+            <h3>Languages</h3>
             <div className='experience__content'>
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon' />
                 <div>
-                  <h4>HTML</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>Python</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
                 </div>
               </article>
 
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon'/>
                 <div>
-                  <h4>CSS</h4>
-                  <small className='text-light'>Intermediate</small>
+                  <h4>Java</h4>
+                  {/* <small className='text-light'>Intermediate</small> */}
                 </div>
               </article>
 
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon'/>
                 <div>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Basic</small>
+                <h4>HTML/CSS</h4>
+                {/* <small className='text-light'>Basic</small> */}
                 </div>
               </article>
 
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon'/>
                 <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Basic</small>
+                <h4>Javascript</h4>
+                {/* <small className='text-light'>Basic</small> */}
                 </div>
               </article>
 
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon'/>
                 <div>
-                <h4>React</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>OCaml</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <RiArrowDropRightLine className='experience__details-icon'/>
+                <div>
+                <h4>R</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <RiArrowDropRightLine className='experience__details-icon'/>
+                <div>
+                <h4>C</h4>
+                {/* <small className='text-light'>Intermediate</small> */}
                 </div>
               </article>
             </div>
@@ -55,37 +71,69 @@ const Experience = () => {
         
         {/* END OF FRONTEND  */}
         <div className='experience__backend'>
-          <h3>Backend Development</h3>
+          <h3>Tools and Framework</h3>
               <div className='experience__content'>
                 <article className='experience__details'>
                   <RiArrowDropRightLine className='experience__details-icon'/>
                   <div>
+                  <h4>React</h4>
+                  {/* <small className='text-light'>Basic</small> */}
+                  </div>
+                </article>
+
+                <article className='experience__details'>
+                  <RiArrowDropRightLine className='experience__details-icon'/>
+                  <div>
                   <h4>Node.js</h4>
-                  <small className='text-light'>Basic</small>
+                  {/* <small className='text-light'>Basic</small> */}
                   </div>
                 </article>
 
                 <article className='experience__details'>
                   <RiArrowDropRightLine className='experience__details-icon'/>
                   <div>
-                  <h4>MySQL</h4>
-                  <small className='text-light'>Basic</small>
+                  <h4>Jenkins CI/CD</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
                   </div>
                 </article>
 
                 <article className='experience__details'>
                   <RiArrowDropRightLine className='experience__details-icon'/>
                   <div>
-                  <h4>Python</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>PyQT</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
                   </div>
                 </article>
 
                 <article className='experience__details'>
                   <RiArrowDropRightLine className='experience__details-icon'/>
                   <div>
-                  <h4>Java</h4>
-                  <small className='text-light'>Experienced</small>
+                  <h4>PostgreSQL</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
+                  </div>
+                </article>
+
+                <article className='experience__details'>
+                  <RiArrowDropRightLine className='experience__details-icon'/>
+                  <div>
+                  <h4>TI CCS</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
+                  </div>
+                </article>
+
+                <article className='experience__details'>
+                  <RiArrowDropRightLine className='experience__details-icon'/>
+                  <div>
+                  <h4>AWS Lightsail</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
+                  </div>
+                </article>
+
+                <article className='experience__details'>
+                  <RiArrowDropRightLine className='experience__details-icon'/>
+                  <div>
+                  <h4>Artifactory</h4>
+                  {/* <small className='text-light'>Experienced</small> */}
                   </div>
                 </article>
               </div>
