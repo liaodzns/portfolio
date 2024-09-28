@@ -1,9 +1,8 @@
 import React from 'react'
 import './portfolio2.css'
-import ME from '../../assets/me.jpg'
 
 // import Swiper core and required modules
-import { Navigation, Pagination} from 'swiper';
+import { Pagination} from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,32 +13,52 @@ import 'swiper/css/pagination';
 
 const data = [
     {
-        name: 'Caterpillar Game',
-        review: 'Utilized knowledge of stacks, queues, and other data structures to create a mini caterpillar game from scratch without importing any classes  •  Used graphical interface knowledge to apply code and visualize the game on screen  •  Decoded and parsed strings that contained compressed information passed through a stack'
+        name: 'Stock Prediction Model',
+        description: [
+            '- Created a geodemographic segmentation model based on 11 conditions to determine customers of a bank with a high risk of leaving',
+            '- Used basic knowledge of artificial neural networks to train algorithm to make correct predictions'
+        ]
     },
-
+    {
+        name: 'Financial ANN model',
+        description: [
+            '- Created a geodemographic segmentation model based on 11 conditions to determine customers of a bank with a high risk of leaving',
+            '- Used basic knowledge of artificial neural networks to train algorithm to make correct predictions'
+        ]
+    },
+    {
+        name: 'Chinese Vocabulary Learning Application',
+        description: [
+            '- Created a full-stack web application to help users learn Chinese vocabulary',
+            '- Developed REST API endpoints to handle word generation and reset requests',
+            '- Configured CORS in FastAPI to enable smooth communication between frontend and backend'
+        ]
+    },
+    {
+        name: 'Spotify Clone',
+        description: [
+            '- Created a music streaming application using React and Tailwind, replicating the popular features and functionalities of Spotify',
+            '- Integrated Stripe to enable premium subscriptions',
+            '- Created database schemas and implemented authentication using Supabase, ensuring secure user registration and login processes'
+        ]
+    },
     {
         name: 'RateMyProf Analyzer',
-        review: 'Implemented and used my own hashmaps to analyze data generated from RateMyProfessor.com Reviews •  Wrote tools to help visualize the breakdown of word frequencies by numerical rating and gender in order to breakdown gender bias in teaching evaluations '
-    },
-
-    {
-        name: 'Basic ANN',
-        review: 'Created a geodemographic segmentation model based on 11 conditions to determine customers of a bank with a high risk of leaving  •  Used basic knowledge of artificial neural networks to train algorithm to make correct predictions '
-    },
-
-    {
-        name: 'Mondrian Painting Game',
-        review: 'Created a 2D game that models hierarchical data using trees by using recursive methods. Players apply operations such as rotations to a recursive structure in order to work towards a goal and earn points. '
+        description: [
+            '- Implemented and used my own hashmaps to analyze data generated from RateMyProfessor.com Reviews',
+            '- Wrote scripts to help visualize the breakdown of word frequencies by numerical rating and gender',
+            '- Deciphered gender bias in teaching evaluations'
+        ]
     },
 ]
+
 
 const Portfolio2 = () => {
   return (
     <section id='portfolio2'>
         <h2>Portfolio</h2>
 
-        <Swiper className='container testimonials__container'
+        <Swiper className='container projects__container'
               // install Swiper modules
               modules={[Pagination]}
               spaceBetween={40}
@@ -49,13 +68,15 @@ const Portfolio2 = () => {
               
 >
          {
-            data.map(({ name,  review}, index) => {
+            data.map(({ name,  description}, index) => {
                 return (
-                    <SwiperSlide key={index} className='testimonial'>
-                    <h5 className='client__name'>{name}</h5>
-                    <small className='client__review'>
-                        {review}
-                    </small>
+                    <SwiperSlide key={index} className='projects'>
+                    <h5 className='project__title'>{name}</h5>
+                    <ul className='project__desc'>
+                        {description.map((point, idx) => (
+                            <li key={idx}>{point}</li>
+                        ))}
+                    </ul>
                 </SwiperSlide>
                 )
             } )
