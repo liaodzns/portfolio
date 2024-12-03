@@ -15,8 +15,8 @@ const About = () => {
         </div>
 
         <div className="about__content">
-            I'm a third year student at McGill University with a major in Computer Science and
-            a minor in Economics. I have interests primarily in back-end development, machine learning and quantitative finance! Outside of school, 
+            I'm a third year student at McGill University pursuing Computer Science with an Artificial Intelligence concentration and
+            a minor in Economics. My interests primarily lie in back-end development, machine learning and data science! Outside of school, 
             I enjoy playing video games with friends, reading, and listening to music. 
             
         </div>

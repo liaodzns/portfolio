@@ -23,7 +23,7 @@ const data = [
     {
         name: 'Stock Prediction Model',
         description: [
-            '- Developed a LSTM Neural Network using TensorFlow and Keras to predict the closing prices of stocks, leveraging historical stock data from yfinance API and incorporating technical indicators such as Moving Averages, MACD, and Bollinger Bands for feature enhancement',
+            '- Developed a LSTM Neural Network using TensorFlow and Keras to predict the closing prices of stocks, leveraging historical stock data from yfinance API and incorporating technical indicators for feature enhancement',
             '- Developed and engineered time-series data for model training and created interactive visualizations using matplotlib to compare real vs predicted prices across multiple stocks'
         ]
     },
@@ -36,18 +36,19 @@ const data = [
         ]
     },
     {
-        name: 'Financial ANN model',
+        name: 'Financial Institution Customer Attrition Model',
         description: [
-            '- Created a geodemographic segmentation model based on 11 conditions to determine customers of a bank with a high risk of leaving',
-            '- Used basic knowledge of artificial neural networks to train algorithm to make correct predictions'
+            '- Designed and implemented an Artificial Neural Network (ANN) for predictive modeling on customer churn',
+            '- Applied machine learning preprocessing workflows with libraries such as NumPy, Pandas, and Scikit-learn to streamline data transformation and analysis',
+            '- Leveraged advanced TensorFlow techniques for model construction, optimization, and evaluation to achieve improved prediction accuracy',
+            '- Analyzed model performance to refine feature engineering and hyperparameters, illustrating proficiency in data-driven decision-making'
         ]
     },
     {
         name: 'RateMyProf Analyzer',
         description: [
-            '- Implemented and used my own hashmaps to analyze data generated from RateMyProfessor.com Reviews',
-            '- Wrote scripts to help visualize the breakdown of word frequencies by numerical rating and gender',
-            '- Deciphered gender bias in teaching evaluations'
+            '- Developed a HashMap object in Java from scratch to demonstrate knowledge of data structures and analyze data generated from RateMyProfessor.com reviews',
+            '- Implemented scripts to help visualize the breakdown of word frequencies by numerical rating and gender and decipher gender bias in teaching evaluations',
         ]
     },
 ]
