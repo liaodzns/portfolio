@@ -38,7 +38,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon'/>
                 <div>
-                <h4>Javascript</h4>
+                <h4>JavaScript</h4>
                 {/* <small className='text-light'>Basic</small> */}
                 </div>
               </article>
@@ -46,7 +46,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <RiArrowDropRightLine className='experience__details-icon'/>
                 <div>
-                <h4>OCaml</h4>
+                <h4>Scripting</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
                 </div>
               </article>
@@ -76,7 +76,7 @@ const Experience = () => {
                 <article className='experience__details'>
                   <RiArrowDropRightLine className='experience__details-icon'/>
                   <div>
-                  <h4>React</h4>
+                  <h4>React.js</h4>
                   {/* <small className='text-light'>Basic</small> */}
                   </div>
                 </article>
@@ -108,15 +108,7 @@ const Experience = () => {
                 <article className='experience__details'>
                   <RiArrowDropRightLine className='experience__details-icon'/>
                   <div>
-                  <h4>PostgreSQL</h4>
-                  {/* <small className='text-light'>Experienced</small> */}
-                  </div>
-                </article>
-
-                <article className='experience__details'>
-                  <RiArrowDropRightLine className='experience__details-icon'/>
-                  <div>
-                  <h4>TI CCS</h4>
+                  <h4>Django</h4>
                   {/* <small className='text-light'>Experienced</small> */}
                   </div>
                 </article>
