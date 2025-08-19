@@ -57,7 +57,7 @@ const data = [
 const Portfolio2 = () => {
   return (
     <section id='portfolio2'>
-        <h2>Portfolio</h2>
+        <h2>Some Projects of Mine:</h2>
 
         <Swiper className='container projects__container'
               // install Swiper modules
